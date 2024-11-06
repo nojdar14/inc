@@ -179,7 +179,7 @@ function round4() {
   input1 = Math.round(input1);
   input2 = Math.round(input2);
 
-  var randto = Math.random() * (input1 - input2);
+  var randto = Math.random() * (input2 - input1);
   randto = Math.round(randto);
   document.getElementById("rand4-out").innerHTML = randto;
 }
